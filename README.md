@@ -19,16 +19,16 @@ Some metrics will give use insights on which algorithm perform the best:
 Recall is the ability of a classifier to find all positive instances. For each class it is defined as the ratio of true positives to the sum of true positives and false negatives.
 
 1. *Naive Random Oversampling model:*
-<br>
+
 ![](Resources/Images/Naive_Random_Oversampling.PNG)
    
 
 2. *SMOTE Oversampling model:*
-<br>
+
 ![](Resources/Images/SMOTE_Oversampling.PNG) 
    
 3. *ClusterCentroids re-sampler model:*
-<br>
+
 ![](Resources/Images/Clusters_Centroids_Undersampling.PNG)  
    
 4. *SMOTEENN model:*
@@ -36,11 +36,11 @@ Recall is the ability of a classifier to find all positive instances. For each c
 ![](Resources/Images/SMOTEENN_Combination_Sampling.PNG) 
    
 5. *RandomForestClassifier model:*
-<br>
+
 ![](Resources/Images/Balanced_Random_Forest_Classifier.PNG)
    
 6. *AdaBoostClassifier model:*
-<br>
+
 ![](Resources/Images/Easy_Ensemble_AdaBoost_Classifier.PNG)  
    
 
