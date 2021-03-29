@@ -21,30 +21,36 @@ Recall is the ability of a classifier to find all positive instances. For each c
 1. *Naive Random Oversampling model:*
 
 ![](Resources/Images/Naive_Random_Oversampling.PNG)
+<br>
 For this model, we have an accuracy score of ~0.67, which mean that our model is ~70% accurate with a precision of 0.99, telling us that the low false positive rate is good.The sensitivity (0.66) is good for this model because above 0.5.
 
 2. *SMOTE Oversampling model:*
 
 ![](Resources/Images/SMOTE_Oversampling.PNG) 
+<br>
 For this model, we have an accuracy of ~66%, with a precision of 0.99 and a recall of 0.66.
 
 3. *ClusterCentroids re-sampler model:*
 
 ![](Resources/Images/Clusters_Centroids_Undersampling.PNG)  
+<br>
 This model showcase an accuracy score of ~50% which is pretty low. Looking at the recall score (0.47) tell us that this model is not excellent at prediction because under 0.5. 
 
 4. *SMOTEENN model:*
 
-![](Resources/Images/SMOTEENN_Combination_Sampling.PNG) 
+![](Resources/Images/SMOTEENN_Combination_Sampling.PNG)
+<br>
 As the previous model accuracy score (~53%) is pretty low as well as the recall score (0.54) which indicate that the model is not really accurate for prediction even if the precision is good (1.0).
    
 5. *RandomForestClassifier model:*
 
 ![](Resources/Images/Balanced_Random_Forest_Classifier.PNG)
+<br>
 Accuracy score is ~100% which is pretty good as well as the sensitivity (1.0), and the recall score (1.0).   
 6. *AdaBoostClassifier model:*
 
-![](Resources/Images/Easy_Ensemble_AdaBoost_Classifier.PNG)  
+![](Resources/Images/Easy_Ensemble_AdaBoost_Classifier.PNG)
+<br>
 Accuracy score is ~100% which is pretty good as well as the sensitivity (1.0), and the recall score (1.0).   
 
 
